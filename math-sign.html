@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+</head>
+
+<body>
+    <script>
+        // checking the num is positive or negative 
+        function CheckNum(Num){
+            if (Num>=0){
+                document.write("it's positive number ");
+            }
+            else{
+                document.write("it's a negative number")
+            }
+        }
+        Num=Number(prompt("enter your num here")) ;
+        CheckNum(Num);
+
+         //squaring the number
+         var num=prompt("Enter Number:");
+        var num = Math.pow(num, 2);
+        document.write("The square of the num is:"+num);
+        document.write('<br>');
+
+        //cubing the number
+        var cube=prompt("Enter num:");
+        var cube=Math.pow(cube,3);
+        document.write("The cube of the num is:"+cube);
+        document.write('<br>');
+
+
+
+</script>
+    
+</body>
+</html>
